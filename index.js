@@ -4,7 +4,7 @@ module.exports = {
   },
   rules: {
     'arrow-parens': [2, 'always'],
-    'arrow-spacing': [2, { 'before': false, 'after': false }],
+    'arrow-spacing': [2, { 'before': true, 'after': true }],
     'constructor-super': 2,
     'generator-star-spacing': [2, {'before': true, 'after': false}],
     'no-class-assign': 2,
