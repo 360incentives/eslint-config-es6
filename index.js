@@ -2,6 +2,9 @@ module.exports = {
   env: {
     es6: true
   },
+  ecmaFeatures: { 
+    modules: true 
+  },
   rules: {
     'arrow-parens': [2, 'always'],
     'arrow-spacing': [2, { 'before': true, 'after': true }],
