@@ -18,5 +18,6 @@ module.exports = {
     'prefer-spread': 2,
     'prefer-template': 2,
     'require-yield': 2,
+    'strict': [2, 'global']
   }
 };
