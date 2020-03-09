@@ -30,7 +30,7 @@ module.exports = {
     'rest-spread-spacing': ['error', 'never'],
     'sort-imports': 'off',
     'symbol-description': 'error',
-    'strict': ['error', 'global'],
+    strict: ['error', 'global'],
     'template-curly-spacing': ['error', 'never'],
     'yield-star-spacing': ['error', { before: false, after: true }]
   }

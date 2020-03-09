@@ -1,5 +1,7 @@
 # ECMAScript 6 linting
 
+**THIS MODULE IS DEPRECATED** Please switch to semistandard or standard for linting.
+
 This is a baseline configuration for linting ES6 files using [ESLint](http://eslint.org/docs/rules/#ecmascript-6).
 
 #### Usage

@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-es6",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": " ",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ."
+    "test": "semistandard --verbose | snazzy"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,11 @@
     "url": "https://github.com/360incentives/eslint-config-es6/issues"
   },
   "homepage": "https://github.com/360incentives/eslint-config-es6",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^6.8.0"
+  },
+  "devDependencies": {
+    "semistandard": "^14.2.0",
+    "snazzy": "^8.0.0"
   }
 }
